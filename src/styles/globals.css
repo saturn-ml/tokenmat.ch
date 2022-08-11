@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#__next {
+  overflow: hidden;
+}
+
+html,
+body {
+  max-width: 100vw;
+}
+
+html {
+  width: 100%;
+  overflow-y: auto;
+  word-break: keep-all;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+}
